@@ -1,0 +1,16 @@
+server:
+  port: 8089
+  servlet:
+    context-path: /
+
+spring:
+  application:
+    name: chan-delay
+
+  redis:
+    host: 47.112.232.65
+    port: 16379
+    password: redis.1
+    cluster:
+      nodes:
+    database: 1
